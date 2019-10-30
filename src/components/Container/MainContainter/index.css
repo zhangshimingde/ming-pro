@@ -1,0 +1,21 @@
+.main-containter {
+    width: 100%;
+    height: 100%;
+}
+.main-containter .main-row{
+    width: 100%;
+    height: 46px;
+    line-height: 46px;
+    background-color: #fafafa;
+    box-shadow: 0 1px 0 0 #f2f2f2;
+}
+.main-body{
+    width: 100%;
+    height: calc(100% - 46px)
+}
+
+.phone-box{
+    width: 375px;
+    height:calc(100% - 46px);
+    margin-left: 232px;
+}

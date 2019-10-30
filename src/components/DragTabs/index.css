@@ -1,0 +1,17 @@
+.DragCol{
+    background-color: #f3f3f3;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.DragBox .ant-collapse{
+    border: 0;
+}
+.DragBox .ant-collapse > .ant-collapse-item{
+    border-bottom: 0;
+}
+.DragCol:hover{
+    background-color: #29b6b0;
+    color: #fff;
+}

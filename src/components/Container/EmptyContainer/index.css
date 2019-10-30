@@ -1,0 +1,9 @@
+.empty-containter{
+    width: 100%;
+    height: 0.6rem;
+    border: 1px dashed #29b6b0;
+    text-align: center;
+    line-height: 0.6rem;
+    color: #29b6b0;
+    font-size: 0.12rem;
+}

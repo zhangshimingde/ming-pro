@@ -1,0 +1,55 @@
+*{margin:0;padding:0;}
+.phone-containter{
+    margin: 0.30rem 0 0 0rem;
+    width: 3.75rem;
+    height:calc(100% - 0.50rem);
+    background: #f5f5f5;
+    border: 1px solid #e5e5e5;
+    margin-bottom: .20rem;
+    position: relative;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,.1);
+    overflow: hidden;
+}
+.title{
+    width:calc(100% -2px);
+}
+.title img{
+    width: 100%;
+}
+.header{
+    width: 100%;
+    height: 0.44rem;
+    line-height: 0.44rem;
+    position: relative;
+    border-bottom: 1px solid #d6d6d6;
+    color: #000;
+}
+.phone-header-left{
+    padding-left: 0.1rem;
+    float: left;
+    font-size: 0.16rem;
+    font-weight: 700;
+}
+.titleNames{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.phone-header-right{
+    padding-right:0.1rem; 
+    font-size: 0.16rem;
+    float: right;
+    font-weight: 700;
+}
+.phone-content{
+    width: 100%;
+    height: calc(100% - 0.64rem);
+}
+.phone-content li{
+    width: 100%;
+    float: left;
+}
+
+
+
