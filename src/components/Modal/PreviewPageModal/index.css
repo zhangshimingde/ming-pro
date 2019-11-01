@@ -1,0 +1,52 @@
+.preview-page-modal {
+    background: #f0f2f5;
+}
+.preview-page-modal .box-container {
+    overflow-x: hidden;
+}
+.preview-page-modal .ant-modal-header {
+    background-color: rgb(25, 38, 50);
+    border-bottom-color: rgb(25, 38, 50);
+    text-align: center;
+}
+.preview-page-modal .ant-modal-title, .preview-page-modal .ant-modal-close {
+    color: #fff;
+}
+.preview-page-modal .ant-modal-body {
+    padding: 0;
+}
+.preview-page-modal .ant-layout-sider {
+    background-color: rgb(25, 38, 50) !important;
+}
+.preview-page-modal .header-box {
+    padding: 0;
+}
+.preview-page-modal .header-box .drop-container {
+    min-height: 50px;
+}
+.preview-page-modal .fulu-cell-box.preview-mode {
+    margin: 24px;
+    padding: 24px;
+}
+.preview-page-modal .drop-container {
+    min-height: initial;
+}
+.preview-page-modal .preview-box.form-container {
+    margin: 0;
+    margin-left: -24px;
+    margin-right: -24px;
+}
+.preview-page-modal .preview-box.form-container .inner-box {
+    min-height: initial;
+    padding: 0;
+}
+.preview-page-modal .main-container .fulu-cell-box.line-box {
+    margin: 24px 0;
+    padding: 0;
+}
+.preview-page-modal .main-container .fulu-cell-box.line-box .ant-divider-horizontal {
+    margin: 0;
+}
+.preview-page-modal .table-container {
+    margin: 24px 0;
+}

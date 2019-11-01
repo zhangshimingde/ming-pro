@@ -12,11 +12,11 @@ class Carousels extends PureComponent {
 			data: [
 				{url:'http://yun.dui88.com/saas/images/template/banner.png'},
 				{url:'http://yun.dui88.com/saas/images/template/banner_jianyue.png'},
-				{url:''}
+				{url:'http://yun.dui88.com/saas/images/template/remen_banner@2x.png'}
 			],
 			imgHeight: 176,
 		};
-		// http://yun.dui88.com/saas/images/template/remen_banner@2x.png
+		
 	}
 
 	render() {

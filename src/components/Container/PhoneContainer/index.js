@@ -6,6 +6,7 @@ import '../../../util/js/taobao';
 import Carousel from '../../ModalContainer/Carousel';
 import SortList from '../../ModalContainer/SortList';
 import EmptyContainer from  '../EmptyContainer';
+import ListView from '../../ModalContainer/ListView';
 class  PhoneContainer extends Component {
     constructor(props) {
 		super(props);
@@ -69,7 +70,6 @@ class  PhoneContainer extends Component {
    
     renderContainer(){
         const { layoutConfig } = this.props;
-        console.log(layoutConfig)
         let DOM=[];
         if (Array.isArray(layoutConfig) && layoutConfig.length > 0) {
             layoutConfig.map((config,index)=>{
@@ -78,6 +78,8 @@ class  PhoneContainer extends Component {
                     DOM.push(<Carousel/>)
                 }else if(type==='GOODSSORT'){
                     DOM.push(<SortList/>)
+                }else if(type==='LISTVIEW'){
+                    DOM.push(<ListView/>)
                 }
             })
         }
@@ -100,7 +102,6 @@ class  PhoneContainer extends Component {
 	render() {
         const {showEmptyContainer } =this.state;
         const getItemStyle = (isDragging, draggableStyle) =>{
-            console.log(draggableStyle)
             return {
                 userSelect: 'none',
                 ...draggableStyle
